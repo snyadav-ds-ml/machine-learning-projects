@@ -1,0 +1,25 @@
+name: metaphor-predictor
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+    - ipykernel
+    - pandas
+    - seaborn
+    - streamlit
+    - matplotlib
+    - plotly
+    - numpy
+    - scipy
+    - requests
+    - scikit-learn
+    - huggingface-hub
+    - transformers
+    - spacy
+    - corextopic
+    - vadersentiment
+    - torch
